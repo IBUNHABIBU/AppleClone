@@ -67,21 +67,13 @@ header{
 /*END of nav bar styling */
 
 /*BEGIN of main styling */
-main{
-    width: 142.5rem;
-    float: left;
-}
 .image{
-    width:24%;
+    width:24.8%;
 }
 .heading{
-    margin-top:10rem;
-    margin-left: 28rem;
-    width:75rem;
-    line-height: 5rem;
-    text-align:center;
-    font-size:3rem;
-    font-weight:200;
+    position: absolute;
+    top:14rem;
+    left:10rem;
 }
 /*END of main styling*/
 
@@ -127,6 +119,7 @@ footer div{
 /*BEGIN of input form styling*/
 input:hover {
     width: 100%;
+    color: rgb(231, 230, 230);
 }
 .input{
     margin-right: 18rem;
@@ -143,3 +136,28 @@ input:hover {
     top:1.4rem;
 }
 /*END of input form styling*/
+main div h1{
+    background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_title_small_2x.png");
+    position: absolute;
+    width:980px;
+    height:64px;
+    top:12rem;
+    left:10rem;
+}
+main div h2{
+    background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_subhead_small_2x.png");
+    position: absolute;
+    width:980px;
+    height:64px;
+    top:28rem;
+    left:10rem;
+    
+}
+main div h3{
+    background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt_2x.png");
+    position: absolute;
+    width:980px;
+    height:64px;
+    top:38rem;
+    left:10rem;
+}
