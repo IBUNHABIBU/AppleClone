@@ -1,0 +1,145 @@
+/* CSS reset and initialization*/
+html,body,main,header,footer{
+    margin: 0 auto;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+}
+/*END of initialization */
+
+/* BEGIN of link styling*/
+a {
+    text-decoration: none;
+    color: white;
+}
+footer a{
+    color:#08c;
+}
+ footer a:hover{
+ text-decoration: underline;
+}
+/*end of link stylint */
+
+.nav-list li:hover {
+    cursor: pointer;
+    background: rgb(107, 105, 105);
+}
+
+/*BEGIN of header styling */
+header{
+    width:100%;
+    height:50rem;
+    background: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
+    background-position:bottom;
+    background-size:cover;
+    color:white;
+    padding-top:5rem;
+}
+/*BEGIN of styling the nav-bar*/
+
+/*BEGIN of nav bar styling*/
+.nav-list li{
+    margin-top: 1rem;
+    display:block;
+    position: relative;
+    float: left;
+    list-style: none;
+    width: 8rem;
+    padding:0.8rem;
+    background:linear-gradient(rgb(131, 131, 131) 50%, rgb(112, 112, 112) 50%);
+    border-right:0.02rem solid rgb(49, 48, 48);
+    text-align: center;
+    color: white;
+    left: 22rem;
+    font: 1.5rem "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+.nav-list li:first-child{
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.nav-list li:last-child{
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    width:10%;
+    background-color: rgb(83, 80, 80);
+}
+/*END of nav bar styling */
+
+/*BEGIN of main styling */
+main{
+    width: 142.5rem;
+    float: left;
+}
+.image{
+    width:24%;
+}
+.heading{
+    margin-top:10rem;
+    margin-left: 28rem;
+    width:75rem;
+    line-height: 5rem;
+    text-align:center;
+    font-size:3rem;
+    font-weight:200;
+}
+/*END of main styling*/
+
+/*BEGIN of footer styling*/
+footer{
+    width:100%;
+    height:10rem;
+    font-size:1.4rem;
+    display: inline-block;
+    line-height: 2rem;
+}
+
+.footer1{
+    text-align: left;
+    position: relative;
+    top: 1.25rem;
+    margin-right:2rem;
+    margin-left: 14rem;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+}
+footer a {
+    text-decoration: none;
+}
+footer div{
+    float: left;
+}
+.footer2{
+    position:relative;
+    bottom:1rem;
+    top:1.2rem;
+    font-size: 1.1rem;
+}
+.footer2 a{
+    padding: 0 0.5rem;
+}
+.footer2 img{
+    position:relative;
+    top:0.1rem;
+}
+/*END of footer styling*/
+
+/*BEGIN of input form styling*/
+input:hover {
+    width: 100%;
+}
+.input{
+    margin-right: 18rem;
+    transition: width 0.2s;
+    width: 80%;
+    height: 2rem;
+    border-radius: 0.8rem;
+    background-color: rgb(95, 92, 92);
+    border:0.01rem solid rgb(107, 104, 104);
+}
+.fa-search{
+    position: absolute;
+    left:1.2rem;
+    top:1.4rem;
+}
+/*END of input form styling*/
