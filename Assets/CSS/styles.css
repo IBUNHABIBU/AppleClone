@@ -167,7 +167,7 @@ main div h1{
     background-repeat: no-repeat;
     position: absolute;
     background-size: 100rem 12rem;
-    width: 100rem;
+    width: 80%;
     height:18rem;
     padding-left:0;
     margin-left:0;
@@ -180,7 +180,7 @@ main div h2{
     position: absolute;
     background-size: 80rem 12rem;
     background-repeat: no-repeat;
-    width:780rem;
+    width:78%;
     height:16.4rem;
     top:20rem;
     left:24rem;
@@ -191,8 +191,8 @@ main div h3{
     position: absolute;
     background-size: 70rem 10rem;
     background-repeat: no-repeat;
-    width:78rem;
-    height:55rem;
+    width:78%;
+    height:5rem;
     top:32rem;
     left:24rem;
     right:0;
