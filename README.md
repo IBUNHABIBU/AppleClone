@@ -5,8 +5,8 @@ The original site is [Apple.com 2014](https://web.archive.org/web/20140301004610
 
 Built with 
 
-*HTML*
-*CSS*
+* HTML
+* CSS
 ## Author
 Salum Habibu https://github.com/IBUNHABIBU
 
