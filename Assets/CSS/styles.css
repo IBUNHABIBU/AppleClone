@@ -162,7 +162,7 @@ input:hover {
     top:1.4rem;
 }
 /*END of input form styling*/
-main div h1{
+.head1{
     background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_title_small_2x.png");
     background-repeat: no-repeat;
     position: absolute;
@@ -175,7 +175,7 @@ main div h1{
     left:15rem;
     right:0;
 }
-main div h2{
+.head2 {
     background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_subhead_small_2x.png");
     position: absolute;
     background-size: 80rem 12rem;
@@ -186,7 +186,7 @@ main div h2{
     left:24rem;
     right:0;
 }
-main div h3{
+.head3 {
     background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt_2x.png");
     position: absolute;
     background-size: 70rem 10rem;
